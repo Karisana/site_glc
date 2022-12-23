@@ -1,0 +1,233 @@
+@media (max-width: 990px) {
+
+    .my-header-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+
+    }
+
+    .my-container {
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+
+    .h {
+        margin-bottom: 1em !important;
+    }
+
+    .phone {
+        margin-right: 54px;
+    }
+
+
+    .card {
+        flex-direction: row !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    .card-svg {
+        padding-top: 0px !important;
+    }
+
+    .card-body-items {
+        text-align: left;
+    }
+
+    .card-text {
+        text-align: left;
+    }
+
+    .col {
+        flex: 2 0 100% !important;
+    }
+
+    .col-md-3 {
+        width: 40% !important;
+    }
+
+    .card-body {
+        padding: 1em 1em !important;
+    }
+
+    .preview-item {
+        padding: 6em 3em 6em 4em;
+        max-width: 500px;
+    }
+
+    .glk-card-fon {
+        top: 101em;
+        width: 40%;
+    }
+
+    .preview-item-left {
+        padding: 3em 3em 6em 2em;
+        max-width: 500px;
+    }
+
+    .glk-card-fon-left {
+        display: none;
+    }
+
+    .card-news {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        width: 12rem !important;
+    }
+
+    .container-news-mb {
+        display: block;
+        visibility: visible;
+    }
+
+    .carousel-item-news-mb {
+        margin: 2em 4em 2em 4em;
+    }
+
+    .news-col {
+        flex: 1 0 30% !important;
+    }
+
+    .container-news {
+        margin-bottom: 1px !important;
+        margin-top: 1px !important;
+    }
+
+    .container {
+        padding-left: 1px !important;
+        padding-right: 1px !important;
+    }
+
+    .carousel-items-mb {
+        height: auto !important;
+    }
+
+    .container-news-mb {
+        display: block;
+        visibility: visible;
+
+    }
+
+    .container-news {
+        display: none;
+    }
+
+    .row-news {
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+    }
+
+    .carousel-control-prev-news {
+        left: -4em !important;
+    }
+
+    .carousel-control-next-news {
+        left: 43em !important;
+    }
+
+    .col-3 {
+        width: auto !important;
+    }
+
+    .booking {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .booking-text {
+        margin-left: 1em;
+        margin-right: 1em;
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* .my-nav {
+        display: none !important;
+    } */
+
+    /* .header__menu-hamburger {
+        display: block;
+        visibility: visible;
+      }
+      .hamburger__menu {
+        margin: 0em 3em;
+      }
+       */
+
+    .slider-h {
+        font-size: 2em !important;
+    }
+
+    .slider-p {
+        font-size: 14px !important;
+    }
+
+    /* .container-news {
+        display: none;
+    } */
+    .preview {
+        flex-direction: column;
+    }
+
+    .preview-item {
+        padding: 1em 1em 1em 1em;
+        max-width: none;
+    }
+
+    .preview-img {
+        display: none;
+    }
+
+    .preview-item-left {
+        padding: 3em 1em 1em 1em;
+        max-width: none;
+    }
+
+    .preview-img-left {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 450px) {
+    .glk-card-fon, .glk-card-fon-left {
+        width: 30%;
+    }
+
+    .my-header-container, .d-flex {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+    .phone {
+        margin-right: 0 !important;
+    }
+
+    .text-end {
+        text-align: center !important;
+    }
+
+    .slider-p {
+        font-size: 12px !important;
+    }
+
+    .section {
+        padding-bottom: 1em !important;
+        padding-top: 1em !important;
+    }
+
+    .section, .glk-card-fon-left {
+        display: none;
+    }
+
+    .icon-footer {
+        display: flex;
+        flex-direction: row !important;
+        padding: 20px !important;
+    }
+
+}
